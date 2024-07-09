@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://sprites/weapons/emitables/round_bullet.png" type="Texture" id=1]
+[ext_resource path="res://scripts/gameplay/projectiles/bullet.gd" type="Script" id=2]
+[ext_resource path="res://sprites/weapons/emitables/fireball_2.png" type="Texture" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 3, 2 )
+
+[node name="bullet" type="Area2D"]
+script = ExtResource( 2 )
+knockback = 50.0
+
+[node name="spr" type="Sprite" parent="."]
+z_index = -1
+texture = ExtResource( 1 )
+
+[node name="coll" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="fire_ball" type="Light2D" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )
+range_layer_min = -1
+
+[node name="end" type="Timer" parent="."]
+wait_time = 30.0
+one_shot = true
+autostart = true
+
+[node name="vis" type="VisibilityNotifier2D" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_bullet_body_entered"]
+[connection signal="timeout" from="end" to="." method="_on_end_timeout"]
+[connection signal="screen_exited" from="vis" to="." method="_on_vis_screen_exited"]

@@ -1,0 +1,20 @@
+,en,ru
+WEAPON_CD,WEAPON SPD,СКР. АТАКИ
+WEAPON_DMG,WEAPON DMG,УР. АТАКИ
+WEAPON_BUY,BUY,КУПИТЬ
+WEAPON_RELOAD,RELOAD SPD,СКР. ПЕРЕЗАР
+WEAPON_PENETRATION,PENETRATION,ПРОБИТИЕ
+WEAPON_ACCURACY,ACCURACY,ТОЧНОСТЬ
+WEAPON_CLIP,MAX AMMO,КОЛ-ВО ПУЛЬ
+TIP_PICKING_WEAPONS,TIP: YOU CANT EQUIP WEAPONS WHILE RUNNING,ПОДСКАЗКА: НЕЛЬЗЯ МЕНЯТЬ/ВЫБИРАТЬ ОРУЖИЕ ВО ВРЕМЯ БЕГА
+TIP_STORE,TIP: YOU CANT SHOOT IN STORE,ПОДСКАЗКА: НЕЛЬЗЯ СТРЕЛЯТЬ С ОТКРЫТЫМ МАГАЗИНОМ
+TIP_START,TIP: PICK UP BAT TO START GAME,ПОДСКАЗКА: ПОДБЕРИ БИТУ ЧТОБ НАЧАТЬ ИГРАТЬ
+TIP_RELOAD,TIP: YOU CAN RELOAD  WEAPON WITHOUT EQUIPING THEM,ПОДСКАЗКА: ПЕРЕЗАРЯДКА ПРОИСХОДИТ ДАЖЕ ЕСЛИ ОРУЖИЕ НЕ В РУКАХ
+TIP_RANKING,"TIP: WHILE YOU HAVE ZZZ RANK YOU CAN SURVIVE ONE HIT, THEN RANK & COMBO RESETS","ПОДСКАЗКА: ПОКА У ТЕБЯ РАНК ZZZ ТЫ МОЖЕШЬ ПЕРЕЖИТЬ ОДИН УДАР, ПОТОМ РАНК И КОМБО ОБНУЛЯЮТСЯ"
+MAX_SCORE,HIGHSCORE,РЕКОРД
+RECORD_SCORE,NEW HIGHSCORE!,НОВЫЙ РЕКОРД!
+LBL_SCORE:,SCORE:,СЧЕТ:
+LBL_MONEY:,MONEY:,ДЕНЬГИ:
+LBL_DEATH,YOU ARE DEAD,ПОМЕР
+RESTART_BUTTON,RESTART,НАЧАТЬ ЗАНОВО
+REVIVE_BUTTION,CONTINUE(WATCH AD),ПРОДОЛЖИТЬ(ПОСМОТРЕТЬ РЕКЛАМУ)
